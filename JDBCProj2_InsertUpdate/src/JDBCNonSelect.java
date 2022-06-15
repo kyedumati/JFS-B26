@@ -43,6 +43,7 @@ public class JDBCNonSelect {
 			e.printStackTrace();
 		}finally {
 			conn.close();
+			stmt.close();
 		}
 	}
 	
