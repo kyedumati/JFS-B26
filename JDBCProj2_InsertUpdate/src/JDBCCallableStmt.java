@@ -25,3 +25,8 @@ public class JDBCCallableStmt {
 	}
 
 }
+
+
+//Assignments2
+// Create a simple procedure to insert records dynamically by accepting input params and call that procedure from JDBC
+// Insert multiple records to employee table at a time from JDBC app (Note: using preparedstatement)
