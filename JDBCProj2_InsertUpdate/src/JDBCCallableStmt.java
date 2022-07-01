@@ -4,6 +4,14 @@ import java.sql.ResultSet;
 
 public class JDBCCallableStmt {
 	
+	public static void sum() {
+		
+	}
+	
+	public static void mul() {
+		
+	}
+	
 	public static void main(String[] args) {
 		Connection conn=null;
 		CallableStatement stmt=null;

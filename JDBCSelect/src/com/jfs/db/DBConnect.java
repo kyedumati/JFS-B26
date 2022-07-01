@@ -6,11 +6,15 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DBConnect {
-	
+	//why it is string
+	//why it is array
+	//int, float, char, string
+	//java DBConnect 10 kasi 98.5 
 	public static void main(String[] args) {
 		Connection conn=null;
 		Statement stmt=null;
 		ResultSet rs=null;
+		
 		try {
 			//Register the jdbc driver
 			//For Mysql
