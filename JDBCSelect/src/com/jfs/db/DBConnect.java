@@ -18,6 +18,7 @@ public class DBConnect {
 		try {
 			//Register the jdbc driver
 			//For Mysql
+			//sasikala comment
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			//For Oracle
 			//Class.forName("oracle.jdbc.driver.OracleDriver");
